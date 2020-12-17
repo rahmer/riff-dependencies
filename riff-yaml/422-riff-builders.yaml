@@ -1,0 +1,13 @@
+apiVersion: build.pivotal.io/v1alpha1
+kind: ClusterBuilder
+metadata:
+    name: riff-application
+spec:
+    image: gcr.io/paketo-buildpacks/builder@sha256:9de911bc993108debe853dcb53a444e1c711c8d921ca5509a0f83252f15adb5c 
+---
+apiVersion: build.pivotal.io/v1alpha1
+kind: ClusterBuilder
+metadata:
+    name: riff-function
+spec:
+    image: gcr.io/projectriff/builder@sha256:a7655da43580313d79fffcebcc9170ba51cc5349a2e1aa57868ec2273357ba21
