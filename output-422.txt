@@ -1,0 +1,472 @@
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-cainjector-amd64@sha256:2a1af0f72c273c74f666d06729b56ad3f2226d9683bc7b2e63195f730e56aa89
+sha256:2a1af0f72c273c74f666d06729b56ad3f2226d9683bc7b2e63195f730e56aa89: Pulling from cert-manager/cert-manager-cainjector-amd64
+Digest: sha256:2a1af0f72c273c74f666d06729b56ad3f2226d9683bc7b2e63195f730e56aa89
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-cainjector-amd64@sha256:2a1af0f72c273c74f666d06729b56ad3f2226d9683bc7b2e63195f730e56aa89
+591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-cainjector-amd64@sha256:2a1af0f72c273c74f666d06729b56ad3f2226d9683bc7b2e63195f730e56aa89
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-cainjector-amd64@sha256:2a1af0f72c273c74f666d06729b56ad3f2226d9683bc7b2e63195f730e56aa89 -o OUTPUT/ECR__cert-manager__cert-manager-cainjector-amd64.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-controller-amd64@sha256:4eaf287c2fea6023fe28161d69a41e41e290065450497395aba7512e221b46bf
+sha256:4eaf287c2fea6023fe28161d69a41e41e290065450497395aba7512e221b46bf: Pulling from cert-manager/cert-manager-controller-amd64
+Digest: sha256:4eaf287c2fea6023fe28161d69a41e41e290065450497395aba7512e221b46bf
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-controller-amd64@sha256:4eaf287c2fea6023fe28161d69a41e41e290065450497395aba7512e221b46bf
+591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-controller-amd64@sha256:4eaf287c2fea6023fe28161d69a41e41e290065450497395aba7512e221b46bf
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-controller-amd64@sha256:4eaf287c2fea6023fe28161d69a41e41e290065450497395aba7512e221b46bf -o OUTPUT/ECR__cert-manager__cert-manager-controller-amd64.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-webhook-amd64@sha256:64246830f2173845f0545dff1bbfb64468b2013bd3bd07a59e34301c7b7f420d
+sha256:64246830f2173845f0545dff1bbfb64468b2013bd3bd07a59e34301c7b7f420d: Pulling from cert-manager/cert-manager-webhook-amd64
+Digest: sha256:64246830f2173845f0545dff1bbfb64468b2013bd3bd07a59e34301c7b7f420d
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-webhook-amd64@sha256:64246830f2173845f0545dff1bbfb64468b2013bd3bd07a59e34301c7b7f420d
+591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-webhook-amd64@sha256:64246830f2173845f0545dff1bbfb64468b2013bd3bd07a59e34301c7b7f420d
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/cert-manager/cert-manager-webhook-amd64@sha256:64246830f2173845f0545dff1bbfb64468b2013bd3bd07a59e34301c7b7f420d -o OUTPUT/ECR__cert-manager__cert-manager-webhook-amd64.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/controller@sha256:47aaa6f0ae2b4accd4859b542d6d32af19a7e345aab2f8913f69122444a10ab4
+sha256:47aaa6f0ae2b4accd4859b542d6d32af19a7e345aab2f8913f69122444a10ab4: Pulling from kpack/controller
+Digest: sha256:47aaa6f0ae2b4accd4859b542d6d32af19a7e345aab2f8913f69122444a10ab4
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/controller@sha256:47aaa6f0ae2b4accd4859b542d6d32af19a7e345aab2f8913f69122444a10ab4
+591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/controller@sha256:47aaa6f0ae2b4accd4859b542d6d32af19a7e345aab2f8913f69122444a10ab4
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/controller@sha256:47aaa6f0ae2b4accd4859b542d6d32af19a7e345aab2f8913f69122444a10ab4 -o OUTPUT/ECR__kpack__controller.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/build-init@sha256:41e064dea93d09a3f4dffa6cd78f21360e98760eec8c7fe0ebbaf6afa36f1b56
+sha256:41e064dea93d09a3f4dffa6cd78f21360e98760eec8c7fe0ebbaf6afa36f1b56: Pulling from kpack/build-init
+Digest: sha256:41e064dea93d09a3f4dffa6cd78f21360e98760eec8c7fe0ebbaf6afa36f1b56
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/build-init@sha256:41e064dea93d09a3f4dffa6cd78f21360e98760eec8c7fe0ebbaf6afa36f1b56
+591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/build-init@sha256:41e064dea93d09a3f4dffa6cd78f21360e98760eec8c7fe0ebbaf6afa36f1b56
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/build-init@sha256:41e064dea93d09a3f4dffa6cd78f21360e98760eec8c7fe0ebbaf6afa36f1b56 -o OUTPUT/ECR__kpack__build-init.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/rebase@sha256:cb51f9880142f36e0560768a15aecd1c08bc1c026da79b33521326331721b5bf
+sha256:cb51f9880142f36e0560768a15aecd1c08bc1c026da79b33521326331721b5bf: Pulling from kpack/rebase
+Digest: sha256:cb51f9880142f36e0560768a15aecd1c08bc1c026da79b33521326331721b5bf
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/rebase@sha256:cb51f9880142f36e0560768a15aecd1c08bc1c026da79b33521326331721b5bf
+591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/rebase@sha256:cb51f9880142f36e0560768a15aecd1c08bc1c026da79b33521326331721b5bf
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/rebase@sha256:cb51f9880142f36e0560768a15aecd1c08bc1c026da79b33521326331721b5bf -o OUTPUT/ECR__kpack__rebase.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/completion@sha256:1e0d737bb1fe54ac455a34520af886733ec6be89e43a9033396aed7c1c601e86
+sha256:1e0d737bb1fe54ac455a34520af886733ec6be89e43a9033396aed7c1c601e86: Pulling from kpack/completion
+Digest: sha256:1e0d737bb1fe54ac455a34520af886733ec6be89e43a9033396aed7c1c601e86
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/completion@sha256:1e0d737bb1fe54ac455a34520af886733ec6be89e43a9033396aed7c1c601e86
+591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/completion@sha256:1e0d737bb1fe54ac455a34520af886733ec6be89e43a9033396aed7c1c601e86
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/completion@sha256:1e0d737bb1fe54ac455a34520af886733ec6be89e43a9033396aed7c1c601e86 -o OUTPUT/ECR__kpack__completion.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/lifecycle@sha256:4f445eaaa2d6ab5ec7f4a83c2278225467df9c18b5ced1de9179e8152fa8f90b
+sha256:4f445eaaa2d6ab5ec7f4a83c2278225467df9c18b5ced1de9179e8152fa8f90b: Pulling from kpack/lifecycle
+Digest: sha256:4f445eaaa2d6ab5ec7f4a83c2278225467df9c18b5ced1de9179e8152fa8f90b
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/lifecycle@sha256:4f445eaaa2d6ab5ec7f4a83c2278225467df9c18b5ced1de9179e8152fa8f90b
+591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/lifecycle@sha256:4f445eaaa2d6ab5ec7f4a83c2278225467df9c18b5ced1de9179e8152fa8f90b
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/lifecycle@sha256:4f445eaaa2d6ab5ec7f4a83c2278225467df9c18b5ced1de9179e8152fa8f90b -o OUTPUT/ECR__kpack__lifecycle.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/webhook@sha256:7894b7a7337db7a9239c5c1004e080941f1573798924d3ecf1e3f33368d1d156
+sha256:7894b7a7337db7a9239c5c1004e080941f1573798924d3ecf1e3f33368d1d156: Pulling from kpack/webhook
+Digest: sha256:7894b7a7337db7a9239c5c1004e080941f1573798924d3ecf1e3f33368d1d156
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/webhook@sha256:7894b7a7337db7a9239c5c1004e080941f1573798924d3ecf1e3f33368d1d156
+591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/webhook@sha256:7894b7a7337db7a9239c5c1004e080941f1573798924d3ecf1e3f33368d1d156
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/kpack/webhook@sha256:7894b7a7337db7a9239c5c1004e080941f1573798924d3ecf1e3f33368d1d156 -o OUTPUT/ECR__kpack__webhook.tar.gz
+docker pull gcr.io/projectriff/builder@sha256:a7655da43580313d79fffcebcc9170ba51cc5349a2e1aa57868ec2273357ba21
+sha256:a7655da43580313d79fffcebcc9170ba51cc5349a2e1aa57868ec2273357ba21: Pulling from projectriff/builder
+Digest: sha256:a7655da43580313d79fffcebcc9170ba51cc5349a2e1aa57868ec2273357ba21
+Status: Image is up to date for gcr.io/projectriff/builder@sha256:a7655da43580313d79fffcebcc9170ba51cc5349a2e1aa57868ec2273357ba21
+gcr.io/projectriff/builder@sha256:a7655da43580313d79fffcebcc9170ba51cc5349a2e1aa57868ec2273357ba21
+docker save gcr.io/projectriff/builder@sha256:a7655da43580313d79fffcebcc9170ba51cc5349a2e1aa57868ec2273357ba21 -o OUTPUT/GCRIO__projectriff__builder.tar.gz
+docker pull gcr.io/paketo-buildpacks/builder@sha256:9de911bc993108debe853dcb53a444e1c711c8d921ca5509a0f83252f15adb5c
+sha256:9de911bc993108debe853dcb53a444e1c711c8d921ca5509a0f83252f15adb5c: Pulling from paketo-buildpacks/builder
+f22ccc0b8772: Already exists
+3cf8fb62ba5f: Already exists
+e80c964ece6a: Already exists
+d898836aa858: Pulling fs layer
+23881d5f0a16: Pulling fs layer
+4c11f19f4006: Pulling fs layer
+f92e266c456c: Pulling fs layer
+357fefdf9bc9: Pulling fs layer
+b30d5da8a839: Pulling fs layer
+e2d14cd8be41: Pulling fs layer
+4b78c180298f: Pulling fs layer
+b0b61d9d3dbb: Pulling fs layer
+bf862b047bc8: Pulling fs layer
+ee5a967ca96c: Pulling fs layer
+959eac0d8716: Pulling fs layer
+45b5877c0054: Pulling fs layer
+2583474a699d: Pulling fs layer
+b30d5da8a839: Waiting
+709cf96806b4: Pulling fs layer
+dbb9cfc9b979: Pulling fs layer
+e2d14cd8be41: Waiting
+bdaedfaaae39: Pulling fs layer
+4b78c180298f: Waiting
+e1b2bc5b6942: Pulling fs layer
+b0b61d9d3dbb: Waiting
+c17edff566d0: Pulling fs layer
+9b12982fb73e: Pulling fs layer
+df0b9a0436ef: Pulling fs layer
+bf862b047bc8: Waiting
+e2e1f331fac7: Pulling fs layer
+f37011fdeec7: Pulling fs layer
+c39319c7e7cb: Pulling fs layer
+ee5a967ca96c: Waiting
+de27ef761aad: Pulling fs layer
+959eac0d8716: Waiting
+998297d3701a: Pulling fs layer
+67d45bf13a4c: Pulling fs layer
+709cf96806b4: Waiting
+2e29d3eefb0c: Pulling fs layer
+dbb9cfc9b979: Waiting
+51e4298824ab: Pulling fs layer
+b6e936bf8dd5: Pulling fs layer
+bdaedfaaae39: Waiting
+7c1a7a5341c1: Pulling fs layer
+e1b2bc5b6942: Waiting
+42ec4873c1e5: Pulling fs layer
+c17edff566d0: Waiting
+7c35af9f344a: Pulling fs layer
+bd0bd7d81343: Pulling fs layer
+45b5877c0054: Waiting
+48f4765443bf: Pulling fs layer
+4fcc58ae8245: Pulling fs layer
+2583474a699d: Waiting
+70f4ec9d7c34: Pulling fs layer
+357fefdf9bc9: Waiting
+9b970679aa98: Pulling fs layer
+48f4765443bf: Waiting
+b6e936bf8dd5: Waiting
+01a15cfa239d: Pulling fs layer
+4fcc58ae8245: Waiting
+7c1a7a5341c1: Waiting
+2f3817a7efff: Pulling fs layer
+70f4ec9d7c34: Waiting
+42ec4873c1e5: Waiting
+7c35af9f344a: Waiting
+86e5d2372651: Pulling fs layer
+df0b9a0436ef: Waiting
+179b7b321387: Pulling fs layer
+bd0bd7d81343: Waiting
+b2d5e5dc57e1: Pulling fs layer
+e2e1f331fac7: Waiting
+9b970679aa98: Waiting
+c39319c7e7cb: Waiting
+a8552aac22ed: Pulling fs layer
+f37011fdeec7: Waiting
+01a15cfa239d: Waiting
+51a8ece718d9: Pulling fs layer
+de27ef761aad: Waiting
+d6d93946af8f: Pulling fs layer
+86e5d2372651: Waiting
+2e29d3eefb0c: Waiting
+2f3817a7efff: Waiting
+8efc72d6c943: Pulling fs layer
+998297d3701a: Waiting
+67d45bf13a4c: Waiting
+dd95a238a588: Pulling fs layer
+179b7b321387: Waiting
+51a8ece718d9: Waiting
+0dfaedb86549: Pulling fs layer
+440cefc33b45: Pulling fs layer
+b2d5e5dc57e1: Waiting
+51e4298824ab: Waiting
+421e3e6fc256: Pulling fs layer
+a8552aac22ed: Waiting
+8efc72d6c943: Waiting
+6944f134285a: Pulling fs layer
+0dfaedb86549: Waiting
+d46fe229372a: Pulling fs layer
+6944f134285a: Waiting
+03dfe00c9f87: Pulling fs layer
+b85404f16818: Pulling fs layer
+957802381e42: Pulling fs layer
+d46fe229372a: Waiting
+aa46822e5416: Pulling fs layer
+03dfe00c9f87: Waiting
+5c90e188a399: Pulling fs layer
+af446fad883e: Pulling fs layer
+b85404f16818: Waiting
+94acd8ac91a7: Pulling fs layer
+957802381e42: Waiting
+f332c11272b3: Pulling fs layer
+aa46822e5416: Waiting
+5c90e188a399: Waiting
+ed89b0d99d4f: Pulling fs layer
+72ad9888618d: Pulling fs layer
+f92e266c456c: Waiting
+4f4fb700ef54: Pulling fs layer
+f332c11272b3: Waiting
+ed89b0d99d4f: Waiting
+9b12982fb73e: Waiting
+94acd8ac91a7: Waiting
+d898836aa858: Download complete
+4c11f19f4006: Verifying Checksum
+4c11f19f4006: Download complete
+357fefdf9bc9: Verifying Checksum
+357fefdf9bc9: Download complete
+f92e266c456c: Verifying Checksum
+f92e266c456c: Download complete
+e2d14cd8be41: Verifying Checksum
+e2d14cd8be41: Download complete
+d898836aa858: Pull complete
+b30d5da8a839: Verifying Checksum
+b30d5da8a839: Download complete
+4b78c180298f: Verifying Checksum
+4b78c180298f: Download complete
+bf862b047bc8: Verifying Checksum
+bf862b047bc8: Download complete
+b0b61d9d3dbb: Verifying Checksum
+b0b61d9d3dbb: Download complete
+ee5a967ca96c: Verifying Checksum
+ee5a967ca96c: Download complete
+959eac0d8716: Verifying Checksum
+959eac0d8716: Download complete
+45b5877c0054: Verifying Checksum
+45b5877c0054: Download complete
+2583474a699d: Verifying Checksum
+2583474a699d: Download complete
+709cf96806b4: Verifying Checksum
+709cf96806b4: Download complete
+dbb9cfc9b979: Download complete
+e1b2bc5b6942: Verifying Checksum
+e1b2bc5b6942: Download complete
+bdaedfaaae39: Verifying Checksum
+bdaedfaaae39: Download complete
+23881d5f0a16: Verifying Checksum
+23881d5f0a16: Download complete
+c17edff566d0: Verifying Checksum
+c17edff566d0: Download complete
+df0b9a0436ef: Verifying Checksum
+df0b9a0436ef: Download complete
+9b12982fb73e: Verifying Checksum
+9b12982fb73e: Download complete
+e2e1f331fac7: Download complete
+f37011fdeec7: Verifying Checksum
+f37011fdeec7: Download complete
+de27ef761aad: Verifying Checksum
+de27ef761aad: Download complete
+c39319c7e7cb: Verifying Checksum
+c39319c7e7cb: Download complete
+998297d3701a: Verifying Checksum
+998297d3701a: Download complete
+67d45bf13a4c: Verifying Checksum
+67d45bf13a4c: Download complete
+2e29d3eefb0c: Verifying Checksum
+2e29d3eefb0c: Download complete
+51e4298824ab: Download complete
+7c1a7a5341c1: Verifying Checksum
+7c1a7a5341c1: Download complete
+b6e936bf8dd5: Download complete
+42ec4873c1e5: Verifying Checksum
+42ec4873c1e5: Download complete
+bd0bd7d81343: Verifying Checksum
+bd0bd7d81343: Download complete
+7c35af9f344a: Verifying Checksum
+7c35af9f344a: Download complete
+48f4765443bf: Verifying Checksum
+4fcc58ae8245: Verifying Checksum
+4fcc58ae8245: Download complete
+70f4ec9d7c34: Verifying Checksum
+70f4ec9d7c34: Download complete
+01a15cfa239d: Verifying Checksum
+01a15cfa239d: Download complete
+2f3817a7efff: Verifying Checksum
+2f3817a7efff: Download complete
+9b970679aa98: Verifying Checksum
+9b970679aa98: Download complete
+86e5d2372651: Verifying Checksum
+86e5d2372651: Download complete
+179b7b321387: Verifying Checksum
+179b7b321387: Download complete
+a8552aac22ed: Verifying Checksum
+a8552aac22ed: Download complete
+b2d5e5dc57e1: Verifying Checksum
+b2d5e5dc57e1: Download complete
+51a8ece718d9: Verifying Checksum
+51a8ece718d9: Download complete
+8efc72d6c943: Verifying Checksum
+8efc72d6c943: Download complete
+d6d93946af8f: Download complete
+dd95a238a588: Verifying Checksum
+dd95a238a588: Download complete
+0dfaedb86549: Verifying Checksum
+0dfaedb86549: Download complete
+440cefc33b45: Verifying Checksum
+440cefc33b45: Download complete
+421e3e6fc256: Download complete
+6944f134285a: Verifying Checksum
+6944f134285a: Download complete
+03dfe00c9f87: Verifying Checksum
+03dfe00c9f87: Download complete
+d46fe229372a: Verifying Checksum
+d46fe229372a: Download complete
+b85404f16818: Verifying Checksum
+b85404f16818: Download complete
+957802381e42: Verifying Checksum
+957802381e42: Download complete
+aa46822e5416: Download complete
+5c90e188a399: Verifying Checksum
+5c90e188a399: Download complete
+94acd8ac91a7: Verifying Checksum
+94acd8ac91a7: Download complete
+af446fad883e: Verifying Checksum
+af446fad883e: Download complete
+f332c11272b3: Verifying Checksum
+f332c11272b3: Download complete
+72ad9888618d: Verifying Checksum
+72ad9888618d: Download complete
+ed89b0d99d4f: Verifying Checksum
+ed89b0d99d4f: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+23881d5f0a16: Pull complete
+4c11f19f4006: Pull complete
+f92e266c456c: Pull complete
+357fefdf9bc9: Pull complete
+b30d5da8a839: Pull complete
+e2d14cd8be41: Pull complete
+4b78c180298f: Pull complete
+b0b61d9d3dbb: Pull complete
+bf862b047bc8: Pull complete
+ee5a967ca96c: Pull complete
+959eac0d8716: Pull complete
+45b5877c0054: Pull complete
+2583474a699d: Pull complete
+709cf96806b4: Pull complete
+dbb9cfc9b979: Pull complete
+bdaedfaaae39: Pull complete
+e1b2bc5b6942: Pull complete
+c17edff566d0: Pull complete
+9b12982fb73e: Pull complete
+df0b9a0436ef: Pull complete
+e2e1f331fac7: Pull complete
+f37011fdeec7: Pull complete
+c39319c7e7cb: Pull complete
+de27ef761aad: Pull complete
+998297d3701a: Pull complete
+67d45bf13a4c: Pull complete
+2e29d3eefb0c: Pull complete
+51e4298824ab: Pull complete
+b6e936bf8dd5: Pull complete
+7c1a7a5341c1: Pull complete
+42ec4873c1e5: Pull complete
+7c35af9f344a: Pull complete
+bd0bd7d81343: Pull complete
+48f4765443bf: Pull complete
+4fcc58ae8245: Pull complete
+70f4ec9d7c34: Pull complete
+9b970679aa98: Pull complete
+01a15cfa239d: Pull complete
+2f3817a7efff: Pull complete
+86e5d2372651: Pull complete
+179b7b321387: Pull complete
+b2d5e5dc57e1: Pull complete
+a8552aac22ed: Pull complete
+51a8ece718d9: Pull complete
+d6d93946af8f: Pull complete
+8efc72d6c943: Pull complete
+dd95a238a588: Pull complete
+0dfaedb86549: Pull complete
+440cefc33b45: Pull complete
+421e3e6fc256: Pull complete
+6944f134285a: Pull complete
+d46fe229372a: Pull complete
+03dfe00c9f87: Pull complete
+b85404f16818: Pull complete
+957802381e42: Pull complete
+aa46822e5416: Pull complete
+5c90e188a399: Pull complete
+af446fad883e: Pull complete
+94acd8ac91a7: Pull complete
+f332c11272b3: Pull complete
+ed89b0d99d4f: Pull complete
+72ad9888618d: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:9de911bc993108debe853dcb53a444e1c711c8d921ca5509a0f83252f15adb5c
+Status: Downloaded newer image for gcr.io/paketo-buildpacks/builder@sha256:9de911bc993108debe853dcb53a444e1c711c8d921ca5509a0f83252f15adb5c
+gcr.io/paketo-buildpacks/builder@sha256:9de911bc993108debe853dcb53a444e1c711c8d921ca5509a0f83252f15adb5c
+docker save gcr.io/paketo-buildpacks/builder@sha256:9de911bc993108debe853dcb53a444e1c711c8d921ca5509a0f83252f15adb5c -o OUTPUT/GCRIO__paketo-buildpacks__builder.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/kedacore/keda-metrics-apiserver@sha256:042cfca09698c96f22c40a07ae8333a2c2126c8af0a2972ce5ff13c6a0e898dd
+sha256:042cfca09698c96f22c40a07ae8333a2c2126c8af0a2972ce5ff13c6a0e898dd: Pulling from kedacore/keda-metrics-apiserver
+Digest: sha256:042cfca09698c96f22c40a07ae8333a2c2126c8af0a2972ce5ff13c6a0e898dd
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/kedacore/keda-metrics-apiserver@sha256:042cfca09698c96f22c40a07ae8333a2c2126c8af0a2972ce5ff13c6a0e898dd
+591444126380.dkr.ecr.us-east-1.amazonaws.com/kedacore/keda-metrics-apiserver@sha256:042cfca09698c96f22c40a07ae8333a2c2126c8af0a2972ce5ff13c6a0e898dd
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/kedacore/keda-metrics-apiserver@sha256:042cfca09698c96f22c40a07ae8333a2c2126c8af0a2972ce5ff13c6a0e898dd -o OUTPUT/ECR__kedacore__keda-metrics-apiserver.tar.gz
+docker pull 591444126380.dkr.ecr.us-east-1.amazonaws.com/kedacore/keda@sha256:f342d333ff26f03f6970ecccd51b4511c80cd055959f9174b5e93465fed1718e
+sha256:f342d333ff26f03f6970ecccd51b4511c80cd055959f9174b5e93465fed1718e: Pulling from kedacore/keda
+Digest: sha256:f342d333ff26f03f6970ecccd51b4511c80cd055959f9174b5e93465fed1718e
+Status: Image is up to date for 591444126380.dkr.ecr.us-east-1.amazonaws.com/kedacore/keda@sha256:f342d333ff26f03f6970ecccd51b4511c80cd055959f9174b5e93465fed1718e
+591444126380.dkr.ecr.us-east-1.amazonaws.com/kedacore/keda@sha256:f342d333ff26f03f6970ecccd51b4511c80cd055959f9174b5e93465fed1718e
+docker save 591444126380.dkr.ecr.us-east-1.amazonaws.com/kedacore/keda@sha256:f342d333ff26f03f6970ecccd51b4511c80cd055959f9174b5e93465fed1718e -o OUTPUT/ECR__kedacore__keda.tar.gz
+docker pull gcr.io/kubebuilder/kube-rbac-proxy@sha256:e10d1d982dd653db74ca87a1d1ad017bc5ef1aeb651bdea089debf16485b080b
+sha256:e10d1d982dd653db74ca87a1d1ad017bc5ef1aeb651bdea089debf16485b080b: Pulling from kubebuilder/kube-rbac-proxy
+c9b1b535fdd9: Pulling fs layer
+1663b4633309: Pulling fs layer
+4d5a3060f92a: Pulling fs layer
+1663b4633309: Verifying Checksum
+1663b4633309: Download complete
+c9b1b535fdd9: Verifying Checksum
+c9b1b535fdd9: Download complete
+c9b1b535fdd9: Pull complete
+1663b4633309: Pull complete
+4d5a3060f92a: Verifying Checksum
+4d5a3060f92a: Download complete
+4d5a3060f92a: Pull complete
+Digest: sha256:e10d1d982dd653db74ca87a1d1ad017bc5ef1aeb651bdea089debf16485b080b
+Status: Downloaded newer image for gcr.io/kubebuilder/kube-rbac-proxy@sha256:e10d1d982dd653db74ca87a1d1ad017bc5ef1aeb651bdea089debf16485b080b
+gcr.io/kubebuilder/kube-rbac-proxy@sha256:e10d1d982dd653db74ca87a1d1ad017bc5ef1aeb651bdea089debf16485b080b
+docker save gcr.io/kubebuilder/kube-rbac-proxy@sha256:e10d1d982dd653db74ca87a1d1ad017bc5ef1aeb651bdea089debf16485b080b -o OUTPUT/GCRIO__kubebuilder__kube-rbac-proxy.tar.gz
+docker pull gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/build@sha256:42234cd185de6dc00d51ffc38860ead15b71ea533cecc4905f29022c843b62ad
+sha256:42234cd185de6dc00d51ffc38860ead15b71ea533cecc4905f29022c843b62ad: Pulling from projectriff/system/github.com/projectriff/system/cmd/managers/build
+5a56ea9a8189: Pulling fs layer
+72164b581b02: Pulling fs layer
+3d338109d0b1: Pulling fs layer
+72164b581b02: Verifying Checksum
+72164b581b02: Download complete
+5a56ea9a8189: Verifying Checksum
+5a56ea9a8189: Download complete
+5a56ea9a8189: Pull complete
+3d338109d0b1: Verifying Checksum
+3d338109d0b1: Download complete
+72164b581b02: Pull complete
+3d338109d0b1: Pull complete
+Digest: sha256:42234cd185de6dc00d51ffc38860ead15b71ea533cecc4905f29022c843b62ad
+Status: Downloaded newer image for gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/build@sha256:42234cd185de6dc00d51ffc38860ead15b71ea533cecc4905f29022c843b62ad
+gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/build@sha256:42234cd185de6dc00d51ffc38860ead15b71ea533cecc4905f29022c843b62ad
+docker save gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/build@sha256:42234cd185de6dc00d51ffc38860ead15b71ea533cecc4905f29022c843b62ad -o OUTPUT/GCRIO__projectriff__system-build.tar.gz
+docker pull gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/knative@sha256:636f1cd2340b9b8b481b18b402c950821bada5287025acc4fab344957451bf9c
+sha256:636f1cd2340b9b8b481b18b402c950821bada5287025acc4fab344957451bf9c: Pulling from projectriff/system/github.com/projectriff/system/cmd/managers/knative
+5a56ea9a8189: Already exists
+72164b581b02: Already exists
+bce5ed363988: Pulling fs layer
+bce5ed363988: Verifying Checksum
+bce5ed363988: Download complete
+bce5ed363988: Pull complete
+Digest: sha256:636f1cd2340b9b8b481b18b402c950821bada5287025acc4fab344957451bf9c
+Status: Downloaded newer image for gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/knative@sha256:636f1cd2340b9b8b481b18b402c950821bada5287025acc4fab344957451bf9c
+gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/knative@sha256:636f1cd2340b9b8b481b18b402c950821bada5287025acc4fab344957451bf9c
+docker save gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/knative@sha256:636f1cd2340b9b8b481b18b402c950821bada5287025acc4fab344957451bf9c -o OUTPUT/GCRIO__projectriff__system-knative.tar.gz
+docker pull gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/streaming@sha256:3e308de9454869c4994a0684770d6cb6804eab9fd29ba653f23172c4f4c37100
+sha256:3e308de9454869c4994a0684770d6cb6804eab9fd29ba653f23172c4f4c37100: Pulling from projectriff/system/github.com/projectriff/system/cmd/managers/streaming
+5a56ea9a8189: Already exists
+72164b581b02: Already exists
+3c0171a74372: Pulling fs layer
+3c0171a74372: Verifying Checksum
+3c0171a74372: Download complete
+3c0171a74372: Pull complete
+Digest: sha256:3e308de9454869c4994a0684770d6cb6804eab9fd29ba653f23172c4f4c37100
+Status: Downloaded newer image for gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/streaming@sha256:3e308de9454869c4994a0684770d6cb6804eab9fd29ba653f23172c4f4c37100
+gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/streaming@sha256:3e308de9454869c4994a0684770d6cb6804eab9fd29ba653f23172c4f4c37100
+docker save gcr.io/projectriff/system/github.com/projectriff/system/cmd/managers/streaming@sha256:3e308de9454869c4994a0684770d6cb6804eab9fd29ba653f23172c4f4c37100 -o OUTPUT/GCRIO__projectriff__system-streaming.tar.gz
+docker pull gcr.io/projectriff/nop-provisioner/provisioner@sha256:4bfa270f904a979c858d50267bb5e99df3b4ec44babe993f949193404f58f64b
+sha256:4bfa270f904a979c858d50267bb5e99df3b4ec44babe993f949193404f58f64b: Pulling from projectriff/nop-provisioner/provisioner
+Digest: sha256:4bfa270f904a979c858d50267bb5e99df3b4ec44babe993f949193404f58f64b
+Status: Image is up to date for gcr.io/projectriff/nop-provisioner/provisioner@sha256:4bfa270f904a979c858d50267bb5e99df3b4ec44babe993f949193404f58f64b
+gcr.io/projectriff/nop-provisioner/provisioner@sha256:4bfa270f904a979c858d50267bb5e99df3b4ec44babe993f949193404f58f64b
+docker save gcr.io/projectriff/nop-provisioner/provisioner@sha256:4bfa270f904a979c858d50267bb5e99df3b4ec44babe993f949193404f58f64b -o OUTPUT/GCRIO__projectriff__nop-provisioner-provisioner.tar.gz
+docker pull gcr.io/projectriff/kafka-provisioner/provisioner@sha256:c5917a348faae5ababb7371be200c933d50f12f2698d6635d138f047300d68a6
+sha256:c5917a348faae5ababb7371be200c933d50f12f2698d6635d138f047300d68a6: Pulling from projectriff/kafka-provisioner/provisioner
+Digest: sha256:c5917a348faae5ababb7371be200c933d50f12f2698d6635d138f047300d68a6
+Status: Image is up to date for gcr.io/projectriff/kafka-provisioner/provisioner@sha256:c5917a348faae5ababb7371be200c933d50f12f2698d6635d138f047300d68a6
+gcr.io/projectriff/kafka-provisioner/provisioner@sha256:c5917a348faae5ababb7371be200c933d50f12f2698d6635d138f047300d68a6
+docker save gcr.io/projectriff/kafka-provisioner/provisioner@sha256:c5917a348faae5ababb7371be200c933d50f12f2698d6635d138f047300d68a6 -o OUTPUT/GCRIO__projectriff__kafka-provisioner-provisioner.tar.gz
+docker pull gcr.io/projectriff/pulsar-provisioner/provisioner@sha256:028ec53ad146efe05f7f6122b89d97ee189f396780b744a1e348ee0fcee35ff2
+sha256:028ec53ad146efe05f7f6122b89d97ee189f396780b744a1e348ee0fcee35ff2: Pulling from projectriff/pulsar-provisioner/provisioner
+Digest: sha256:028ec53ad146efe05f7f6122b89d97ee189f396780b744a1e348ee0fcee35ff2
+Status: Image is up to date for gcr.io/projectriff/pulsar-provisioner/provisioner@sha256:028ec53ad146efe05f7f6122b89d97ee189f396780b744a1e348ee0fcee35ff2
+gcr.io/projectriff/pulsar-provisioner/provisioner@sha256:028ec53ad146efe05f7f6122b89d97ee189f396780b744a1e348ee0fcee35ff2
+docker save gcr.io/projectriff/pulsar-provisioner/provisioner@sha256:028ec53ad146efe05f7f6122b89d97ee189f396780b744a1e348ee0fcee35ff2 -o OUTPUT/GCRIO__projectriff__pulsar-provisioner-provisioner.tar.gz
+docker pull gcr.io/projectriff/streaming-processor/processor-native@sha256:968cf9c0b3bc17d2298c0287f3caa9460e289e2fd6363685c229ef7acafacaf8
+sha256:968cf9c0b3bc17d2298c0287f3caa9460e289e2fd6363685c229ef7acafacaf8: Pulling from projectriff/streaming-processor/processor-native
+Digest: sha256:968cf9c0b3bc17d2298c0287f3caa9460e289e2fd6363685c229ef7acafacaf8
+Status: Image is up to date for gcr.io/projectriff/streaming-processor/processor-native@sha256:968cf9c0b3bc17d2298c0287f3caa9460e289e2fd6363685c229ef7acafacaf8
+gcr.io/projectriff/streaming-processor/processor-native@sha256:968cf9c0b3bc17d2298c0287f3caa9460e289e2fd6363685c229ef7acafacaf8
+docker save gcr.io/projectriff/streaming-processor/processor-native@sha256:968cf9c0b3bc17d2298c0287f3caa9460e289e2fd6363685c229ef7acafacaf8 -o OUTPUT/GCRIO__projectriff__streaming-processor-processor-native.tar.gz
+docker pull index.docker.io/bsideup/liiklus@sha256:7f20249d442562ef00f8835df2196e34d5960671bb84cb28155afeaa316dfc21
+sha256:7f20249d442562ef00f8835df2196e34d5960671bb84cb28155afeaa316dfc21: Pulling from bsideup/liiklus
+Digest: sha256:7f20249d442562ef00f8835df2196e34d5960671bb84cb28155afeaa316dfc21
+Status: Image is up to date for bsideup/liiklus@sha256:7f20249d442562ef00f8835df2196e34d5960671bb84cb28155afeaa316dfc21
+docker.io/bsideup/liiklus@sha256:7f20249d442562ef00f8835df2196e34d5960671bb84cb28155afeaa316dfc21
+docker save index.docker.io/bsideup/liiklus@sha256:7f20249d442562ef00f8835df2196e34d5960671bb84cb28155afeaa316dfc21 -o OUTPUT/DCRHUB__bsideup__liiklus.tar.gz
