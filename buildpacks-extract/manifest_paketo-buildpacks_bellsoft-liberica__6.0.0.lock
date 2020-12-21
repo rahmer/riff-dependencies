@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.27.0
+overrides:
+- image: gcr.io/paketo-buildpacks/bellsoft-liberica:6.0.0
+  newImage: gcr.io/paketo-buildpacks/bellsoft-liberica@sha256:cfef575201c7fcc852a9e2ea9211bc457ba30c89e000b89ee236841e8f817a2e
+  preresolved: true

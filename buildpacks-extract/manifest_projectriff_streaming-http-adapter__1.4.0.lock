@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.27.0
+overrides:
+- image: gcr.io/projectriff/streaming-http-adapter:1.4.0
+  newImage: gcr.io/projectriff/streaming-http-adapter@sha256:b202d9ec203e882ee7e3c599d9e867617f909c8b6123e4ce942af47db6e58c45
+  preresolved: true

@@ -1,0 +1,2 @@
+images:
+- image: gcr.io/paketo-buildpacks/gradle:3.4.0

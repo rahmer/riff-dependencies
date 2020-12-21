@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.27.0
+overrides:
+- image: gcr.io/paketo-buildpacks/nodejs:0.0.10
+  newImage: gcr.io/paketo-buildpacks/nodejs@sha256:4b723c77e6313b7d283fc0e1c2745979a88930935b05f9a2268023b3cb45d7db
+  preresolved: true

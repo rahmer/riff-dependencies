@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.27.0
+overrides:
+- image: gcr.io/projectriff/java-function:1.4.1
+  newImage: gcr.io/projectriff/java-function@sha256:5eabea8f7b2c09074ec196fe0c321006fb5ad8f282cc918520286d8a0007196f
+  preresolved: true

@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.27.0
+overrides:
+- image: gcr.io/paketo-buildpacks/maven:3.2.1
+  newImage: gcr.io/paketo-buildpacks/maven@sha256:4d9c6340732c4282dde5f3f614818f3fa3df5b4dca019a705158abdc0f9963f0
+  preresolved: true

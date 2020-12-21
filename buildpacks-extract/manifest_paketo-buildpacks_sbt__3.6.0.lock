@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.27.0
+overrides:
+- image: gcr.io/paketo-buildpacks/sbt:3.6.0
+  newImage: gcr.io/paketo-buildpacks/sbt@sha256:3e6cb2a3c8ffff54ed46f692a62ddb7378afdda8c7d4aa6983be03ef4292009f
+  preresolved: true

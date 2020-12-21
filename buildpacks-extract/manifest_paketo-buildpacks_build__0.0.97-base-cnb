@@ -1,0 +1,2 @@
+images:
+- image: gcr.io/paketo-buildpacks/build:0.0.97-base-cnb

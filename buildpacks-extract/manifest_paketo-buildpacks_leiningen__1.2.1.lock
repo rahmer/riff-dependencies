@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.27.0
+overrides:
+- image: gcr.io/paketo-buildpacks/leiningen:1.2.1
+  newImage: gcr.io/paketo-buildpacks/leiningen@sha256:5ce3a5f323abb5266c8733ae0df54902c8b29584d07766b52b2389de62f978cb
+  preresolved: true

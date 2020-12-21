@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.27.0
+overrides:
+- image: gcr.io/paketo-buildpacks/gradle:3.4.0
+  newImage: gcr.io/paketo-buildpacks/gradle@sha256:6246c15cdb75a9ad5a3d2837e59d70b7fb74b2f3eae19fef4727de42ee9c106b
+  preresolved: true

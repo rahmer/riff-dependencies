@@ -1,0 +1,2 @@
+images:
+- image: gcr.io/projectriff/streaming-http-adapter:1.4.0

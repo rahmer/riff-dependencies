@@ -1,0 +1,2 @@
+images:
+- image: gcr.io/paketo-buildpacks/bellsoft-liberica:6.0.0

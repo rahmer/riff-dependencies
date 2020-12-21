@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.27.0
+overrides:
+- image: gcr.io/projectriff/node-function:1.4.1
+  newImage: gcr.io/projectriff/node-function@sha256:194298b826c15bb079c59aed99968d7678a6e1f7a882c9d7f61811e0990717ba
+  preresolved: true
